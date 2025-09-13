@@ -269,7 +269,7 @@
                                                         <li class="menu-item"><a href="{{ route('dashboard') }}">User
                                                                 Dashboard</a></li>
                                                     @elseif (Auth::user()->role === 'organizer')
-                                                        <li class="menu-item"><a href="{{ route('admin.dashboard') }}">Admin
+                                                        <li class="menu-item"><a href="{{ route('venues.index') }}">Organizer
                                                                 Dashboard</a></li>
                                                     @endif
                                                 @endauth
